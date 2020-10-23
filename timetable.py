@@ -1,11 +1,11 @@
-def timestable(max):
+def timestable():
     table = ''
 
-    for i in range(max):
-        for j in range(max):
-            table += str(((i+1)*(j+1))) + '\t'
+    for i in range(1,11):
+        for j in range(1,11):
+            table += str((i*j)) + '\t'
         table += '\n'
         
     return table
 
-print(timestable(10))
+print(timestable())
