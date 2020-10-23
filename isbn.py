@@ -12,6 +12,7 @@ digit_11=int(input('Please enter the digit 11:'))
 digit_12=int(input('Please enter the digit 12:'))
 checkNum=0
 
+
 variables = [digit_1,digit_2,digit_3,digit_4,digit_5,digit_6,digit_7,digit_8,digit_9,digit_10,digit_11,digit_12]
 newlist = [digit_1,digit_2,digit_3,digit_4,digit_5,digit_6,digit_7,digit_8,digit_9,digit_10,digit_11,digit_12]
 count=0
