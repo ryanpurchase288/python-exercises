@@ -19,8 +19,7 @@ for i in variables:
     if count % 2 !=0:
        newlist[count]=variables[count]*3
     count +=1
-    print(count-1)   
-    print(newlist[count-1], variables[count-1])
+ 
     
 count=0
 for x in newlist:
