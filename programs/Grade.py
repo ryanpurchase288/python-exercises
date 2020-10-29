@@ -17,17 +17,17 @@ def grade(score):
 
 
 
-numberOfStudents = int(input('Enter how many students:'))
+#numberOfStudents = int(input('Enter how many students:'))
 
-for count in range (numberOfStudents):
- name = input('enter students name:')
- homeworkScore = int(input('Enter homework score /25:'))
- assesmentScore = int(input('Enter assessment score /50:'))
- examScore = int(input('Enter exam score /100:'))
+#for count in range (numberOfStudents):
+ #name = input('enter students name:')
+ #homeworkScore = int(input('Enter homework score /25:'))
+ #assesmentScore = int(input('Enter assessment score /50:'))
+ #examScore = int(input('Enter exam score /100:'))
 
- percentage=int(calculator(homeworkScore,assesmentScore,examScore))
- gradeAchieved = str(grade(percentage))
- print(name, 'percentage is:', percentage,'% and achieved a grade of:', gradeAchieved)
+ #percentage=int(calculator(homeworkScore,assesmentScore,examScore))
+ #gradeAchieved = str(grade(percentage))
+ #print(name, 'percentage is:', percentage,'% and achieved a grade of:', gradeAchieved)
 
 
     
